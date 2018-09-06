@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Hagz
+
+  Created by Hadeer Kamel on 9/2/18.
+  Copyright © 2018 Hadeer Kamel. All rights reserved.
+*/
+
+//SIDE MENU
+
+"LANGUAGE"                     =  "language";
+"CHANGE_LOCATION"              =  "Change location";
+"REGISTER"                     =  "Register";
+"LOGIN"                        =  "Login";
+"ORDERS"                       =  "Orders";
+"PRIVACY"                      =  "Privacy";
+"ABOUT"                        =  "About";
