@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0BF6A021419C9E00E0EA10 /* FoodMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BF69E21419C9E00E0EA10 /* FoodMenuCell.swift */; };
+		6B0BF6A121419C9E00E0EA10 /* FoodMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BF69F21419C9E00E0EA10 /* FoodMenuCell.xib */; };
+		6B0BF6A52141B71C00E0EA10 /* AllFoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A32141B71C00E0EA10 /* AllFoodsCell.swift */; };
+		6B0BF6A62141B71C00E0EA10 /* AllFoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A42141B71C00E0EA10 /* AllFoodsCell.xib */; };
+		6B0BF6AA2141C0A600E0EA10 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A82141C0A600E0EA10 /* OrderCell.swift */; };
+		6B0BF6AB2141C0A600E0EA10 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A92141C0A600E0EA10 /* OrderCell.xib */; };
 		6B510647213F50A800F9F827 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B510646213F50A800F9F827 /* SWRevealViewController.m */; };
 		6B51064B213F523200F9F827 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B510648213F523200F9F827 /* UIViewControllerExtension.swift */; };
 		6B51064C213F523200F9F827 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B510649213F523200F9F827 /* UIViewExtension.swift */; };
@@ -43,6 +49,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B0BF69E21419C9E00E0EA10 /* FoodMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuCell.swift; sourceTree = "<group>"; };
+		6B0BF69F21419C9E00E0EA10 /* FoodMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodMenuCell.xib; sourceTree = "<group>"; };
+		6B0BF6A32141B71C00E0EA10 /* AllFoodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFoodsCell.swift; sourceTree = "<group>"; };
+		6B0BF6A42141B71C00E0EA10 /* AllFoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllFoodsCell.xib; sourceTree = "<group>"; };
+		6B0BF6A82141C0A600E0EA10 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		6B0BF6A92141C0A600E0EA10 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
 		6B510644213F50A500F9F827 /* Hagz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hagz-Bridging-Header.h"; sourceTree = "<group>"; };
 		6B510645213F50A700F9F827 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		6B510646213F50A800F9F827 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -99,6 +111,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B0BF69B21419C1100E0EA10 /* FoodMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BF69E21419C9E00E0EA10 /* FoodMenuCell.swift */,
+				6B0BF69F21419C9E00E0EA10 /* FoodMenuCell.xib */,
+			);
+			path = FoodMenuCell;
+			sourceTree = "<group>";
+		};
+		6B0BF6A22141A7D000E0EA10 /* AllFoodsCell */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BF6A32141B71C00E0EA10 /* AllFoodsCell.swift */,
+				6B0BF6A42141B71C00E0EA10 /* AllFoodsCell.xib */,
+			);
+			path = AllFoodsCell;
+			sourceTree = "<group>";
+		};
+		6B0BF6A72141BD8400E0EA10 /* OrderCell */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BF6A82141C0A600E0EA10 /* OrderCell.swift */,
+				6B0BF6A92141C0A600E0EA10 /* OrderCell.xib */,
+			);
+			path = OrderCell;
+			sourceTree = "<group>";
+		};
 		6B51064E213F52CB00F9F827 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +366,9 @@
 		6B513E0C213ED760005FC602 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6B0BF6A72141BD8400E0EA10 /* OrderCell */,
+				6B0BF6A22141A7D000E0EA10 /* AllFoodsCell */,
+				6B0BF69B21419C1100E0EA10 /* FoodMenuCell */,
 				6B513E0D213ED778005FC602 /* ResturantCell */,
 			);
 			path = Cells;
@@ -443,12 +485,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0BF6AB2141C0A600E0EA10 /* OrderCell.xib in Resources */,
+				6B0BF6A62141B71C00E0EA10 /* AllFoodsCell.xib in Resources */,
 				6B513E16213EE26C005FC602 /* UnderlineLabel.xib in Resources */,
 				6B513DE2213C91BC005FC602 /* SideMenu.storyboard in Resources */,
 				6B513DD6213C8DAF005FC602 /* SideMenuCell.xib in Resources */,
 				6B513DF1213C9205005FC602 /* Resturants.storyboard in Resources */,
 				6BEF7753213C05570043C238 /* LaunchScreen.storyboard in Resources */,
 				6BEF7750213C05570043C238 /* Assets.xcassets in Resources */,
+				6B0BF6A121419C9E00E0EA10 /* FoodMenuCell.xib in Resources */,
 				6B513E02213CB7E2005FC602 /* InputTextField.xib in Resources */,
 				6B513DDE213C917C005FC602 /* Localizable.strings in Resources */,
 				6B513DEC213C91F7005FC602 /* Login.storyboard in Resources */,
@@ -465,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B513E09213CEEA3005FC602 /* LoginVC.swift in Sources */,
+				6B0BF6A52141B71C00E0EA10 /* AllFoodsCell.swift in Sources */,
 				6B513DF7213C9E7C005FC602 /* ChangeLanguageVC.swift in Sources */,
 				6BFFC32D2140438300374267 /* SearchWithResturantVC.swift in Sources */,
 				6B51064B213F523200F9F827 /* UIViewControllerExtension.swift in Sources */,
@@ -475,6 +521,7 @@
 				6B513DF9213CA3DA005FC602 /* PrivacyVC.swift in Sources */,
 				6B51064C213F523200F9F827 /* UIViewExtension.swift in Sources */,
 				6B513E0B213CEECD005FC602 /* ForgetPasswordVC.swift in Sources */,
+				6B0BF6AA2141C0A600E0EA10 /* OrderCell.swift in Sources */,
 				6BEF7749213C05560043C238 /* AppDelegate.swift in Sources */,
 				6BFFC32F2140440A00374267 /* UiConstants.swift in Sources */,
 				6B510647213F50A800F9F827 /* SWRevealViewController.m in Sources */,
@@ -486,6 +533,7 @@
 				6BFFC33121404D6D00374267 /* getUserLocationVC.swift in Sources */,
 				6B513E07213CEE7B005FC602 /* RegisterVC.swift in Sources */,
 				6B513E15213EE26C005FC602 /* UnderlineLabel.swift in Sources */,
+				6B0BF6A021419C9E00E0EA10 /* FoodMenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
