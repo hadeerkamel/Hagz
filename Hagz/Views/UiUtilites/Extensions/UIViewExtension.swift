@@ -31,4 +31,18 @@ extension UIView{
         
         
     }
+    func connectNibUI() {
+        let nib = UINib(nibName: String(describing: type(of: self)), bundle: nil).instantiate(withOwner: self, options: nil)
+        let nibView = nib.first as! UIView
+        nibView.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.addSubview(nibView)
+        
+        nibView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        nibView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        nibView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
+        nibView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
+        
+        
+    }
 }

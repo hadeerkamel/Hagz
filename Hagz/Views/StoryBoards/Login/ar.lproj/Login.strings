@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "الأسم  يجب أن لا يقل عن 8 أحرف .وكلمه المرور لابد أن تحتوي على حرف على الأقل و 5 أرقام"; ObjectID = "FyV-Kj-lrQ"; */
+"FyV-Kj-lrQ.text" = "الأسم  يجب أن لا يقل عن 8 أحرف .وكلمه المرور لابد أن تحتوي على حرف على الأقل و 5 أرقام";
+
+/* Class = "UIButton"; normalTitle = "نسيت كلمه المرور؟"; ObjectID = "Qcb-0a-tbQ"; */
+"Qcb-0a-tbQ.normalTitle" = "نسيت كلمه المرور؟";
+
+/* Class = "UIButton"; normalTitle = "دخول"; ObjectID = "dxS-3W-SKR"; */
+"dxS-3W-SKR.normalTitle" = "دخول";
+
+/* Class = "UIButton"; normalTitle = "ارسال"; ObjectID = "gme-vd-d3H"; */
+"gme-vd-d3H.normalTitle" = "ارسال";
+
+/* Class = "UIButton"; normalTitle = "انشاء حساب"; ObjectID = "nXd-gq-RHl"; */
+"nXd-gq-RHl.normalTitle" = "انشاء حساب";
+
+/* Class = "UIButton"; normalTitle = "تسجيل"; ObjectID = "tux-Kx-akH"; */
+"tux-Kx-akH.normalTitle" = "تسجيل";

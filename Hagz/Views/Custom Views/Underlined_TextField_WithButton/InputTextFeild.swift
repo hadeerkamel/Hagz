@@ -10,26 +10,42 @@ import UIKit
 
 @IBDesignable class InputTextFeild: UIView {
 
+    @IBOutlet var view: UIView!
     @IBOutlet weak var underLineView: UIView!
     @IBOutlet weak var InputTextField: UITextField!
     @IBOutlet weak var SideButton: UIButton!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        print("yes")
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+       //  connectNibUI()
+        
         sharedInit()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
         sharedInit()
     }
-    
+    func loadNib(){
+        Bundle.main.loadNibNamed("InputTextFeild", owner: self, options: nil)
+        self.addSubview(self.view)
+    }
     override func prepareForInterfaceBuilder() {
+      //  connectNibUI()
         sharedInit()
     }       
-    
+   
     func sharedInit() {
         // Common logic goes here
+        loadNib()
+       view.frame = self.bounds
+        view.autoresizingMask = [.flexibleWidth,.flexibleHeight]
         setLineColor(color: LineColor)
         setTextPlaceholder(text: TextPlaceholder)
         setTextColor(color: TextColor)
@@ -64,7 +80,7 @@ import UIKit
         }
     }
     func setLineColor(color : UIColor){
-        underLineView.backgroundColor = color
+        self.underLineView.backgroundColor = color
     }
     func setTextPlaceholder(text : String){
         InputTextField.placeholder = text

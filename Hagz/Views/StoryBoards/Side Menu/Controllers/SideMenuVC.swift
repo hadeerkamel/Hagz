@@ -70,15 +70,45 @@ class SideMenuVC: UIViewController {
     }
     func uiStyle(){
         // logoWhiteView.borderRad(Radus: 5, borderWidth: 0)
+        navigationItem.backBarButtonItem =  UIBarButtonItem(title: "", style: .plain, target: self, action: nil)
     }
     func handleMenuSelection(row:Int){
-     //   switch row{
-        
+        switch row{
+        case 0 :
+            self.present(UIConstants.StoryBoards.SideMenuStory.instantiateViewController(withIdentifier: UIConstants.Screens.SideMenu.ChangeLanguage), animated: true, completion: nil)
+            break
+        case 1:
+            Home.navigationController?.pushViewController(UIConstants.StoryBoards.HomeStory.instantiateViewController(withIdentifier: UIConstants.Screens.Home.GetUserLocation), animated: true)
+            break
+        case 2:
+               Home.navigationController?.pushViewController(UIConstants.StoryBoards.LoginStory.instantiateViewController(withIdentifier: UIConstants.Screens.Login.LoginScreen), animated: true)
+            
+            break
+        case 3:
+            Home.navigationController?.pushViewController(UIConstants.StoryBoards.LoginStory.instantiateViewController(withIdentifier: UIConstants.Screens.Login.RegisterScreen), animated: true)
+            break
+        case 4:
+            let tableVC = UIConstants.StoryBoards.Resturants.instantiateViewController(withIdentifier: UIConstants.Screens.Resturants.TableScreen) as! TableVC
+            tableVC.tableCellID = "OrderCell"
+            Home.navigationController?.pushViewController(tableVC, animated: true)
+            
+            break
+        case 5:
+            Home.navigationController?.pushViewController(UIConstants.StoryBoards.SideMenuStory.instantiateViewController(withIdentifier: UIConstants.Screens.SideMenu.PrivacyScreen), animated: true)
+            break
+        case 6:
+            Home.navigationController?.pushViewController(UIConstants.StoryBoards.SideMenuStory.instantiateViewController(withIdentifier: UIConstants.Screens.SideMenu.AboutScreen), animated: true)
+            break
+            
+        default:
+            break
         
             
             
-       // }
-        toggleSWRevealViewController()
+        }
+        if row != 0{
+            toggleSWRevealViewController()
+        }
     }
     
     

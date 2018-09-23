@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 extension UIViewController {
-   
+    
+    
     func toggleSWRevealViewController() {
         //self.revealViewController().revealToggle(self.revealViewController())
         Home.openCloseSideMenu(self)
         }
+    
 }

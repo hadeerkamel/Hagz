@@ -9,27 +9,29 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    @IBOutlet weak var emailTextFeild: InputTextFeild!
+    
+    @IBOutlet weak var passwordTextFeild: InputTextFeild!
+    //MARK: - Life Cycle -
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+     //   loadNib()
+       // emailTextFeild.loadViewFromXibFile()
+        //passwordTextFeild.loadViewFromXibFile()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK: - Helpers -
+    func loadNib(){
+        let bundle = Bundle(for: InputTextFeild.self)
+        bundle.loadNibNamed("InputTextFeild", owner: self, options: nil)
+    }
+    //MARK: - Actions -
+    
+    @IBAction func ForgetPasssButtonDidClicked(_ sender: Any) {
+        Home.navigationController?.pushViewController(UIConstants.StoryBoards.LoginStory.instantiateViewController(withIdentifier: UIConstants.Screens.Login.ForgetPassScreen), animated: true)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func RegisterbuttonClicked(_ sender: Any) {
+        Home.navigationController?.pushViewController(UIConstants.StoryBoards.LoginStory.instantiateViewController(withIdentifier: UIConstants.Screens.Login.RegisterScreen), animated: true)
     }
-    */
-
 }

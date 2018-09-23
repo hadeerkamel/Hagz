@@ -10,6 +10,8 @@ import UIKit
 
 @IBDesignable class UnderlineLabel: UIView {
 
+    
+    @IBOutlet var view: UIView!
     @IBOutlet weak var underLineView: UIView!
     @IBOutlet weak var Label: UILabel!
     
@@ -22,15 +24,23 @@ import UIKit
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
         sharedInit()
     }
     
     override func prepareForInterfaceBuilder() {
         sharedInit()
     }       
-    
+    func loadNib(){
+        Bundle.main.loadNibNamed("UnderlineLabel", owner: self, options: nil)
+        self.addSubview(self.view)
+    }
     func sharedInit() {
         // Common logic goes here
+        loadNib()
+        view.frame = self.bounds
+        view.autoresizingMask = [.flexibleWidth,.flexibleHeight]
+        
         setLineColor(color: LineColor)
         setLabelTitle(text: LabelTitle)
         setLabelTitleColor(color: LabelTitleColor)

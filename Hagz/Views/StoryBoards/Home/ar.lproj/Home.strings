@@ -1,0 +1,84 @@
+
+/* Class = "UILabel"; text = "نحن لا نستطيع تحديد موقعك"; ObjectID = "1QH-ca-qps"; */
+"1QH-ca-qps.text" = "نحن لا نستطيع تحديد موقعك";
+
+/* Class = "UILabel"; text = "مخبوزات و حلويات"; ObjectID = "1x0-cy-Wyp"; */
+"1x0-cy-Wyp.text" = "مخبوزات و حلويات";
+
+/* Class = "UILabel"; text = "المناطق القريبه"; ObjectID = "8jZ-Nc-ODk"; */
+"8jZ-Nc-ODk.text" = "المناطق القريبه";
+
+/* Class = "UIButton"; normalTitle = "قم بتحديد موقعك"; ObjectID = "9F8-UM-wnt"; */
+"9F8-UM-wnt.normalTitle" = "قم بتحديد موقعك";
+
+/* Class = "UILabel"; text = "جده (1)"; ObjectID = "A8b-51-WZz"; */
+"A8b-51-WZz.text" = "جده (1)";
+
+/* Class = "UISearchBar"; placeholder = "اسم المطعم"; ObjectID = "DAB-BH-s9H"; */
+"DAB-BH-s9H.placeholder" = "اسم المطعم";
+
+/* Class = "UILabel"; text = "مطاعم (1)"; ObjectID = "FSZ-ew-hyC"; */
+"FSZ-ew-hyC.text" = "مطاعم (1)";
+
+/* Class = "UILabel"; text = " 5 "; ObjectID = "G3t-dB-wmJ"; */
+"G3t-dB-wmJ.text" = " 5 ";
+
+/* Class = "UILabel"; text = "Foodtrucks (1)"; ObjectID = "Inl-q5-ZqY"; */
+"Inl-q5-ZqY.text" = "Foodtrucks (1)";
+
+/* Class = "UILabel"; text = "عمليات البحث السابقة"; ObjectID = "NJ8-jE-1ju"; */
+"NJ8-jE-1ju.text" = "عمليات البحث السابقة";
+
+/* Class = "UILabel"; text = " 5 "; ObjectID = "RP0-fw-uV4"; */
+"RP0-fw-uV4.text" = " 5 ";
+
+/* Class = "UILabel"; text = "هل أنت جائع ؟ ابحث عن أقرب مطعم"; ObjectID = "SE1-lb-j8h"; */
+"SE1-lb-j8h.text" = "اختر وجهتك المفضلة";
+
+/* Class = "UILabel"; text = "الطائف"; ObjectID = "U10-TK-LLt"; */
+"U10-TK-LLt.text" = "الطائف";
+
+/* Class = "UILabel"; text = " 5 "; ObjectID = "Uzo-Ab-d1W"; */
+"Uzo-Ab-d1W.text" = " 5 ";
+
+/* Class = "UILabel"; text = "الرياض"; ObjectID = "VbF-ha-QRm"; */
+"VbF-ha-QRm.text" = "الرياض";
+
+/* Class = "UILabel"; text = " 5 "; ObjectID = "WqT-2K-tla"; */
+"WqT-2K-tla.text" = " 5 ";
+
+/* Class = "UIButton"; normalTitle = "مشاهده كل الأماكن القريبة"; ObjectID = "Yvz-9L-zai"; */
+"Yvz-9L-zai.normalTitle" = "مشاهده كل الأماكن القريبة";
+
+/* Class = "UILabel"; text = "المدينه المنوره (1)"; ObjectID = "drl-aj-VsL"; */
+"drl-aj-VsL.text" = "المدينه المنوره (1)";
+
+/* Class = "UILabel"; text = "كل المأكولات"; ObjectID = "g1o-bd-ZS1"; */
+"g1o-bd-ZS1.text" = "كل المأكولات";
+
+/* Class = "UIButton"; normalTitle = "تحديد موقعك الحالي"; ObjectID = "hGb-4w-1JU"; */
+"hGb-4w-1JU.normalTitle" = "تحديد موقعك الحالي";
+
+/* Class = "UILabel"; text = " 5 "; ObjectID = "lxr-Zo-8ZY"; */
+"lxr-Zo-8ZY.text" = " 5 ";
+
+/* Class = "UILabel"; text = "(3 مطاعم)"; ObjectID = "qkg-fO-tsp"; */
+"qkg-fO-tsp.text" = "(3 مطاعم)";
+
+/* Class = "UISearchBar"; placeholder = "ابحث عن موقعك"; ObjectID = "rPp-ow-e8m"; */
+"rPp-ow-e8m.placeholder" = "ابحث عن موقعك";
+
+/* Class = "UILabel"; text = "الموقع"; ObjectID = "urp-Cp-1KM"; */
+"urp-Cp-1KM.text" = "الموقع";
+
+/* Class = "UIButton"; normalTitle = "مشاهده كل المأكولات"; ObjectID = "vBC-vR-u9O"; */
+"vBC-vR-u9O.normalTitle" = "مشاهده كل المأكولات";
+
+/* Class = "UILabel"; text = "مكه المكرمه"; ObjectID = "wkq-ou-III"; */
+"wkq-ou-III.text" = "مكه المكرمه";
+
+/* Class = "UILabel"; text = "كل المطاعم"; ObjectID = "y3x-AN-9E6"; */
+"y3x-AN-9E6.text" = "كل المطاعم";
+
+/* Class = "UILabel"; text = "مطاعم و فنادق"; ObjectID = "yfc-uP-ph4"; */
+"yfc-uP-ph4.text" = "مطاعم و فنادق";

@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B024F932157C02800AD7961 /* BookNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B024F922157C02800AD7961 /* BookNowVC.swift */; };
+		6B024F952157C04C00AD7961 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B024F942157C04C00AD7961 /* MenuVC.swift */; };
+		6B024F972157C75A00AD7961 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B024F962157C75A00AD7961 /* TableVC.swift */; };
+		6B0BA158215671A700DF31DE /* ResturantPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BA157215671A700DF31DE /* ResturantPageVC.swift */; };
 		6B0BF6A021419C9E00E0EA10 /* FoodMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BF69E21419C9E00E0EA10 /* FoodMenuCell.swift */; };
 		6B0BF6A121419C9E00E0EA10 /* FoodMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BF69F21419C9E00E0EA10 /* FoodMenuCell.xib */; };
 		6B0BF6A52141B71C00E0EA10 /* AllFoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A32141B71C00E0EA10 /* AllFoodsCell.swift */; };
 		6B0BF6A62141B71C00E0EA10 /* AllFoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A42141B71C00E0EA10 /* AllFoodsCell.xib */; };
 		6B0BF6AA2141C0A600E0EA10 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A82141C0A600E0EA10 /* OrderCell.swift */; };
 		6B0BF6AB2141C0A600E0EA10 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BF6A92141C0A600E0EA10 /* OrderCell.xib */; };
+		6B1143D62153C00100C2C12E /* InputTextFeild.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1143D82153C00100C2C12E /* InputTextFeild.xib */; };
+		6B1AA38321563CDD00843323 /* FillterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AA38221563CDD00843323 /* FillterVC.swift */; };
+		6B1AA38721563D4400843323 /* resturantsMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AA38621563D4400843323 /* resturantsMapVC.swift */; };
 		6B510647213F50A800F9F827 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B510646213F50A800F9F827 /* SWRevealViewController.m */; };
 		6B51064B213F523200F9F827 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B510648213F523200F9F827 /* UIViewControllerExtension.swift */; };
 		6B51064C213F523200F9F827 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B510649213F523200F9F827 /* UIViewExtension.swift */; };
@@ -30,7 +37,6 @@
 		6B513DF7213C9E7C005FC602 /* ChangeLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B513DF6213C9E7C005FC602 /* ChangeLanguageVC.swift */; };
 		6B513DF9213CA3DA005FC602 /* PrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B513DF8213CA3DA005FC602 /* PrivacyVC.swift */; };
 		6B513DFB213CA3F4005FC602 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B513DFA213CA3F3005FC602 /* AboutVC.swift */; };
-		6B513E02213CB7E2005FC602 /* InputTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B513E01213CB7E2005FC602 /* InputTextField.xib */; };
 		6B513E04213CE385005FC602 /* InputTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B513E03213CE385005FC602 /* InputTextFeild.swift */; };
 		6B513E07213CEE7B005FC602 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B513E06213CEE7B005FC602 /* RegisterVC.swift */; };
 		6B513E09213CEEA3005FC602 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B513E08213CEEA3005FC602 /* LoginVC.swift */; };
@@ -42,6 +48,7 @@
 		6BEF7749213C05560043C238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEF7748213C05560043C238 /* AppDelegate.swift */; };
 		6BEF7750213C05570043C238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEF774F213C05570043C238 /* Assets.xcassets */; };
 		6BEF7753213C05570043C238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEF7751213C05570043C238 /* LaunchScreen.storyboard */; };
+		6BFF166C2154E3A8004A779B /* ResturantsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF166B2154E3A8004A779B /* ResturantsListVC.swift */; };
 		6BFFC32D2140438300374267 /* SearchWithResturantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFC32C2140438300374267 /* SearchWithResturantVC.swift */; };
 		6BFFC32F2140440A00374267 /* UiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFC32E2140440A00374267 /* UiConstants.swift */; };
 		6BFFC33121404D6D00374267 /* getUserLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFC33021404D6D00374267 /* getUserLocationVC.swift */; };
@@ -49,12 +56,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B024F922157C02800AD7961 /* BookNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowVC.swift; sourceTree = "<group>"; };
+		6B024F942157C04C00AD7961 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		6B024F962157C75A00AD7961 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		6B0BA157215671A700DF31DE /* ResturantPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantPageVC.swift; sourceTree = "<group>"; };
 		6B0BF69E21419C9E00E0EA10 /* FoodMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuCell.swift; sourceTree = "<group>"; };
 		6B0BF69F21419C9E00E0EA10 /* FoodMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodMenuCell.xib; sourceTree = "<group>"; };
 		6B0BF6A32141B71C00E0EA10 /* AllFoodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFoodsCell.swift; sourceTree = "<group>"; };
 		6B0BF6A42141B71C00E0EA10 /* AllFoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllFoodsCell.xib; sourceTree = "<group>"; };
 		6B0BF6A82141C0A600E0EA10 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		6B0BF6A92141C0A600E0EA10 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		6B1143D521538A9D00C2C12E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Login.strings; sourceTree = "<group>"; };
+		6B1143D72153C00100C2C12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/InputTextFeild.xib; sourceTree = "<group>"; };
+		6B1143DA2153C00900C2C12E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InputTextFeild.strings; sourceTree = "<group>"; };
+		6B1AA38221563CDD00843323 /* FillterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillterVC.swift; sourceTree = "<group>"; };
+		6B1AA38621563D4400843323 /* resturantsMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resturantsMapVC.swift; sourceTree = "<group>"; };
 		6B510644213F50A500F9F827 /* Hagz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hagz-Bridging-Header.h"; sourceTree = "<group>"; };
 		6B510645213F50A700F9F827 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		6B510646213F50A800F9F827 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -75,7 +91,6 @@
 		6B513DFE213CB08F005FC602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		6B513DFF213CB0A5005FC602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		6B513E00213CB0B4005FC602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Resturants.storyboard; sourceTree = "<group>"; };
-		6B513E01213CB7E2005FC602 /* InputTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTextField.xib; sourceTree = "<group>"; };
 		6B513E03213CE385005FC602 /* InputTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFeild.swift; sourceTree = "<group>"; };
 		6B513E06213CEE7B005FC602 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		6B513E08213CEEA3005FC602 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -84,20 +99,20 @@
 		6B513E0F213ED7BD005FC602 /* ResturantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResturantTableViewCell.xib; sourceTree = "<group>"; };
 		6B513E13213EE26C005FC602 /* UnderlineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineLabel.swift; sourceTree = "<group>"; };
 		6B513E14213EE26C005FC602 /* UnderlineLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnderlineLabel.xib; sourceTree = "<group>"; };
+		6B86DBC421487033002172C5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SideMenu.strings; sourceTree = "<group>"; };
 		6BEF7745213C05560043C238 /* Hagz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hagz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BEF7748213C05560043C238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BEF774F213C05570043C238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BEF7752213C05570043C238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BEF7754213C05570043C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFF16682154D816004A779B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Home.strings; sourceTree = "<group>"; };
+		6BFF16692154DAE9004A779B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Resturants.strings; sourceTree = "<group>"; };
+		6BFF166B2154E3A8004A779B /* ResturantsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantsListVC.swift; sourceTree = "<group>"; };
 		6BFFC32C2140438300374267 /* SearchWithResturantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWithResturantVC.swift; sourceTree = "<group>"; };
 		6BFFC32E2140440A00374267 /* UiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiConstants.swift; sourceTree = "<group>"; };
 		6BFFC33021404D6D00374267 /* getUserLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getUserLocationVC.swift; sourceTree = "<group>"; };
 		6BFFC3322140594500374267 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
-		6BFFC334214081CA00374267 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/Resturants.storyboard; sourceTree = "<group>"; };
-		6BFFC335214081CA00374267 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/Home.storyboard; sourceTree = "<group>"; };
 		6BFFC336214081CF00374267 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6BFFC3372140824100374267 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/Login.storyboard; sourceTree = "<group>"; };
-		6BFFC3382140824400374267 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ar; path = ar.lproj/SideMenu.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +317,7 @@
 		6B513DC6213C2CF0005FC602 /* Resturants */ = {
 			isa = PBXGroup;
 			children = (
+				6BFF166A2154E31F004A779B /* Controllers */,
 				6B513E0C213ED760005FC602 /* Cells */,
 				6B513DF3213C9205005FC602 /* Resturants.storyboard */,
 			);
@@ -347,7 +363,7 @@
 		6B513DFC213CAE9C005FC602 /* Underlined_TextField_WithButton */ = {
 			isa = PBXGroup;
 			children = (
-				6B513E01213CB7E2005FC602 /* InputTextField.xib */,
+				6B1143D82153C00100C2C12E /* InputTextFeild.xib */,
 				6B513E03213CE385005FC602 /* InputTextFeild.swift */,
 			);
 			path = Underlined_TextField_WithButton;
@@ -424,6 +440,20 @@
 			path = Hagz;
 			sourceTree = "<group>";
 		};
+		6BFF166A2154E31F004A779B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF166B2154E3A8004A779B /* ResturantsListVC.swift */,
+				6B1AA38221563CDD00843323 /* FillterVC.swift */,
+				6B1AA38621563D4400843323 /* resturantsMapVC.swift */,
+				6B0BA157215671A700DF31DE /* ResturantPageVC.swift */,
+				6B024F922157C02800AD7961 /* BookNowVC.swift */,
+				6B024F942157C04C00AD7961 /* MenuVC.swift */,
+				6B024F962157C75A00AD7961 /* TableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -494,7 +524,7 @@
 				6BEF7753213C05570043C238 /* LaunchScreen.storyboard in Resources */,
 				6BEF7750213C05570043C238 /* Assets.xcassets in Resources */,
 				6B0BF6A121419C9E00E0EA10 /* FoodMenuCell.xib in Resources */,
-				6B513E02213CB7E2005FC602 /* InputTextField.xib in Resources */,
+				6B1143D62153C00100C2C12E /* InputTextFeild.xib in Resources */,
 				6B513DDE213C917C005FC602 /* Localizable.strings in Resources */,
 				6B513DEC213C91F7005FC602 /* Login.storyboard in Resources */,
 				6B513E11213ED7BD005FC602 /* ResturantTableViewCell.xib in Resources */,
@@ -510,14 +540,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B513E09213CEEA3005FC602 /* LoginVC.swift in Sources */,
+				6B0BA158215671A700DF31DE /* ResturantPageVC.swift in Sources */,
+				6B024F952157C04C00AD7961 /* MenuVC.swift in Sources */,
+				6B024F932157C02800AD7961 /* BookNowVC.swift in Sources */,
+				6B1AA38321563CDD00843323 /* FillterVC.swift in Sources */,
 				6B0BF6A52141B71C00E0EA10 /* AllFoodsCell.swift in Sources */,
 				6B513DF7213C9E7C005FC602 /* ChangeLanguageVC.swift in Sources */,
 				6BFFC32D2140438300374267 /* SearchWithResturantVC.swift in Sources */,
 				6B51064B213F523200F9F827 /* UIViewControllerExtension.swift in Sources */,
+				6B024F972157C75A00AD7961 /* TableVC.swift in Sources */,
 				6B510650213F52F500F9F827 /* HomeVC.swift in Sources */,
 				6BFFC3332140594500374267 /* MapVC.swift in Sources */,
 				6B513E04213CE385005FC602 /* InputTextFeild.swift in Sources */,
 				6B513E10213ED7BD005FC602 /* ResturantTableViewCell.swift in Sources */,
+				6B1AA38721563D4400843323 /* resturantsMapVC.swift in Sources */,
 				6B513DF9213CA3DA005FC602 /* PrivacyVC.swift in Sources */,
 				6B51064C213F523200F9F827 /* UIViewExtension.swift in Sources */,
 				6B513E0B213CEECD005FC602 /* ForgetPasswordVC.swift in Sources */,
@@ -532,6 +568,7 @@
 				6B513DD7213C8DAF005FC602 /* SideMenuCell.swift in Sources */,
 				6BFFC33121404D6D00374267 /* getUserLocationVC.swift in Sources */,
 				6B513E07213CEE7B005FC602 /* RegisterVC.swift in Sources */,
+				6BFF166C2154E3A8004A779B /* ResturantsListVC.swift in Sources */,
 				6B513E15213EE26C005FC602 /* UnderlineLabel.swift in Sources */,
 				6B0BF6A021419C9E00E0EA10 /* FoodMenuCell.swift in Sources */,
 			);
@@ -540,6 +577,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6B1143D82153C00100C2C12E /* InputTextFeild.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1143D72153C00100C2C12E /* Base */,
+				6B1143DA2153C00900C2C12E /* ar */,
+			);
+			name = InputTextFeild.xib;
+			sourceTree = "<group>";
+		};
 		6B513DE0213C917C005FC602 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -553,7 +599,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B513DFD213CB005005FC602 /* Base */,
-				6BFFC3382140824400374267 /* ar */,
+				6B86DBC421487033002172C5 /* ar */,
 			);
 			name = SideMenu.storyboard;
 			sourceTree = "<group>";
@@ -562,7 +608,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B513DFF213CB0A5005FC602 /* Base */,
-				6BFFC335214081CA00374267 /* ar */,
+				6BFF16682154D816004A779B /* ar */,
 			);
 			name = Home.storyboard;
 			sourceTree = "<group>";
@@ -571,7 +617,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B513DFE213CB08F005FC602 /* Base */,
-				6BFFC3372140824100374267 /* ar */,
+				6B1143D521538A9D00C2C12E /* ar */,
 			);
 			name = Login.storyboard;
 			sourceTree = "<group>";
@@ -580,7 +626,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6B513E00213CB0B4005FC602 /* Base */,
-				6BFFC334214081CA00374267 /* ar */,
+				6BFF16692154DAE9004A779B /* ar */,
 			);
 			name = Resturants.storyboard;
 			sourceTree = "<group>";
